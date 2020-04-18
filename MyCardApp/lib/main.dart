@@ -52,6 +52,26 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.all(5.0),
                   child: ListTile(
                     leading: Icon(
+                      Icons.location_city,
+                      color: Colors.teal,
+                    ),
+                    title: Text(
+                      "Brazil, São Paulo",
+                      style: TextStyle(
+                          color: Colors.teal.shade900,
+                          fontFamily: "SourceSansPro",
+                          fontSize: 20.0),
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(5.0),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.phone,
                       color: Colors.teal,
                     ),
