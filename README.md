@@ -1,5 +1,4 @@
 # Flutter
 Learning Flutter
 
-## MyCard App
-Simple application that provides a personal presentation card, displaying informartion such as avatar picture, email, phone number and location. 
+I developed all these mini apps during the course: https://www.appbrewery.co/courses/851555
